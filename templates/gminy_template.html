@@ -1,0 +1,71 @@
+{% extends "base_template.html" %}
+
+{% block main_section %}
+{% for lista in lista_list %}<section>
+    <h2 class="{{ show }}">{{ path3 }} – {{ lista[6] }} (obwód nr {{ lista[4] }})</h2>
+    {% block heading %}{% endblock %}
+    <hr>
+
+    <section>
+        <h3>Wyniki poszczególnych kandydatów</h3>
+        <hr>
+        <table>
+            <thead>
+            <tr>
+                <td>Kandydat</td>
+                <td>Liczba głosów oddanych na kandydata</td>
+                <td class="del">Liczba wszystkich ważnych głosów</td>
+                <td>Procentowa liczba głosów oddanych na kandydata</td>
+            </tr>
+            </thead>
+            <tbody>
+            {% for i in range(12, 24) %}<tr>
+                <td><b><a>{{ kand[i - 7] }}</a></b></td>
+                <td>{{ lista[i - k] }}</td>
+                <td class="del">{{ lista[11 - k] }}</td>
+                <td>{{ lista[i + 12 - k] }}</td>
+            </tr>{% endfor %}
+            </tbody>
+        </table>
+
+    </section>
+
+    <section>
+        <h3>Statystyka ogółem</h3>
+        <hr>
+
+        <table class="narrow">
+            <tbody>
+            <tr>
+                <td>Liczba uprawnionych do głosowania</td>
+                <td>{{ lista[7 - k] }}</td>
+            </tr>
+            <tr>
+                <td>Liczba wydanych kart do głosowania</td>
+                <td>{{ lista[8 - k] }}</td>
+            </tr>
+            <tr>
+                <td>Liczba kart wyjętych z urny</td>
+                <td>{{ lista[9 - k] }}</td>
+            </tr>
+            <tr>
+                <td>Liczba ważnych głosów</td>
+                <td>{{ lista[11 - k] }}</td>
+            </tr>
+            <tr>
+                <td>Liczba nieważnych głosów</td>
+                <td>{{ lista[10 - k] }}</td>
+            </tr>
+            <tr>
+                <td>Frekwencja (%)</td>
+                <td>{{ lista[36 - k] }}</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+</section>
+{% endfor %}
+{% block content %}{% endblock %}
+{% endblock %}

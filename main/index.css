@@ -1,0 +1,146 @@
+body {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    font-family: Ubuntu, sans-serif;
+}
+
+header, footer {
+    width: 100%;
+    margin: auto;
+    float: left;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+nav {
+    width: 100%;
+    float: left;
+    margin: auto;
+}
+
+section {
+    float: left;
+    width: 100%;
+    margin: auto auto 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin: auto 10%;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 4px solid #9C0A2E;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+hr.header {
+    display: block;
+    height: 15px;
+    border: 0;
+    border-top: 45px solid #9C0A2E;
+    margin: 0;
+    padding: 0;
+}
+
+hr.footer {
+    margin-top: 15px;
+    height: 20px;
+    border-top: 8px solid #9C0A2E;
+}
+
+table {
+    max-width: 850px;
+    margin: 10px auto auto;
+    border-spacing: 10cm;
+    border-collapse: collapse;
+    border: 2px solid;
+}
+
+table.narrow {
+    max-width: 700px;
+}
+
+table td {
+    text-align: center;
+}
+
+thead {
+    font-weight: bold;
+}
+
+tbody td:first-child {
+    text-align: left;
+}
+
+tr, td {
+    width: 25%;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+img {
+    height: auto;
+}
+
+div#map {
+    margin: auto;
+    width: 100%;
+    height: 525px;
+}
+
+div#piechart_3d {
+    width: auto;
+    min-height: 250px;
+    max-height: 400px;
+    margin: auto auto 0;
+}
+
+@media screen and (max-width: 450px) {
+    td.del {
+        display: none;
+    }
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.hide {
+    display: none;
+}
+
+ul.triple {
+    columns: 150px 3;
+    -webkit-columns: 150px 3;
+    -moz-columns: 150px 3;
+}
+
+@media print {
+    ul.hide {
+        display: block;
+    }
+
+    .hide_print {
+        display: none;
+    }
+}

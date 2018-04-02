@@ -1,0 +1,16 @@
+{% extends "gminy_template.html" %}
+
+{% block heading %}<h2>{% block title %}{% endblock %}</h2>{% endblock %}
+
+{% block content %}<section>
+    <h3>Lista odnośników do {{ co }}</h3>
+    <hr>
+
+    <ul class="triple">
+        {% for item in odn %}<li><a href="{{ pref4 }}{{ item[2]|replace(" ", "%20") }}.html">{{ item[0] }}{{ inf }}{{ item[1] }}{{ suf }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+
+</section>
+{% endblock %}

@@ -1,0 +1,70 @@
+1,Wrocław,Dolnośląskie
+2,Jelenia Góra,Dolnośląskie
+3,Legnica,Dolnośląskie
+4,Wałbrzych,Dolnośląskie
+5,Bydgoszcz,Kujawsko-Pomorskie
+6,Toruń,Kujawsko-Pomorskie
+7,Włocławek,Kujawsko-Pomorskie
+8,Lublin,Lubelskie
+9,Biała Podlaska,Lubelskie
+10,Chełm,Lubelskie
+11,Puławy,Lubelskie
+12,Zamość,Lubelskie
+13,Zielona Góra,Lubuskie
+14,Gorzów Wielkopolski,Lubuskie
+15,Łódź,Łódzkie
+16,Łódź,Łódzkie
+17,Piotrków Trybunalski,Łódzkie
+18,Sieradz,Łódzkie
+19,Skierniewice,Łódzkie
+20,Kraków,Małopolskie
+21,Kraków,Małopolskie
+22,Kraków,Małopolskie
+23,Chrzanów,Małopolskie
+24,Myślenice,Małopolskie
+25,Nowy Sącz,Małopolskie
+26,Nowy Targ,Małopolskie
+27,Tarnów,Małopolskie
+28,Warszawa,Mazowieckie
+29,Warszawa,Mazowieckie
+30,Ciechanów,Mazowieckie
+31,Legionowo,Mazowieckie
+32,Ostrołęka,Mazowieckie
+33,Piaseczno,Mazowieckie
+34,Płock,Mazowieckie
+35,Radom,Mazowieckie
+36,Siedlce,Mazowieckie
+37,Opole,Opolskie
+38,Opole,Opolskie
+39,Rzeszów,Podkarpackie
+40,Krosno,Podkarpackie
+41,Przemyśl,Podkarpackie
+42,Tarnobrzeg,Podkarpackie
+43,Białystok,Podlaskie
+44,Łomża,Podlaskie
+45,Suwałki,Podlaskie
+46,Gdańsk,Pomorskie
+47,Gdańsk,Pomorskie
+48,Słupsk,Pomorskie
+49,Katowice,Śląskie
+50,Bielsko-Biała,Śląskie
+51,Bytom,Śląskie
+52,Częstochowa,Śląskie
+53,Gliwice,Śląskie
+54,Sosnowiec,Śląskie
+55,Kielce,Świętokrzyskie
+56,Kielce,Świętokrzyskie
+57,Olsztyn,Warmińsko-Mazurskie
+58,Elbląg,Warmińsko-Mazurskie
+59,Ełk,Warmińsko-Mazurskie
+60,Poznań,Wielkopolskie
+61,Kalisz,Wielkopolskie
+62,Konin,Wielkopolskie
+63,Leszno,Wielkopolskie
+64,Piła,Wielkopolskie
+65,Szczecin,Zachodniopomorskie
+66,Koszalin,Zachodniopomorskie
+67,Stargard Szczeciński,Zachodniopomorskie
+68,Szczecinek,Zachodniopomorskie
+
+
